@@ -23,6 +23,7 @@
   border: 2px solid black;
   border-radius: 10px;       
      }
+     
 </style>
 </head>
 <body style="background-color:rgb(245, 250, 251);">
@@ -30,8 +31,8 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="finallogo1.png" alt="" width="80%">
-            <img src="finallogo2.png" alt="" width="80%">
+            <img src="img/finallogo1.png" alt="" width="80%">
+            <img src="img/finallogo2.png" alt="" width="80%">
             
           </a>
         </div>
@@ -47,26 +48,31 @@
         
     </center>
       </div>
-      <!-- <div class="row">
-        <div class="col-lg-6"> -->
-          <h2 style=" margin-top: 7px; margin-left:30px;"><b>Personal Information</b></h2>
+      <!-- <div class="row"> -->
+        <!-- <div class="col-lg-6">   -->
+        
           <form action="">
-            <div class="row" style="margin-left:30px; margin-right: 30px;"  >
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
-                    <h6>Enter First Name</h6>
+            <div class="row" style="margin-left:30px; margin-right: 0px;"  >
+<!-- code for name detail -->                
+              <div class="col-lg-6" style=" padding-left: 30px; padding-right: 30px; margin-top: 7px; margin-bottom: 7px;">
+                <h2 style=" margin-top: 40px; margin-left:30px;"><b>Personal Information</b></h2>   
+                <h6> Name</h6>
                   <input type="text" name="first_name" class="form-control" placeholder="First name" aria-label="First name" required>
-                </div>
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
-                    <h6>Enter Last name</h6>
+                <!-- </div> -->
+<!-- code for surname detail -->
+                <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
+                    <h6> Surname</h6>
                   <input type="text" name="last_name" class="form-control" placeholder="Last name" aria-label="Last name" required>
-                </div>
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                <!-- </div> -->
+
+<!-- code for date detail -->             
+                <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>Date Of Birth</h6>
                     <input type="date" name="DOB" class="form-control" required>
-                  </div>
+                  <!-- </div> -->
 
-
-                  <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px; ">
+<!-- code for gender detail -->
+                  <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px; "> -->
                     <h6>Gender</h6>
                     <div class="form-check">
                         <input name="gender_male" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -80,70 +86,88 @@
                           Female
                         </label>
                       </div>
-                 </div>
-                 <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                 <!-- </div> -->
+<!-- code for member ship yes or no detail -->
+                 <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px; "> -->
+                  <h6>Member of MPSOS:</h6>
+                  <div class="form-check">
+                      <input name="member_of_mpsos_yes" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                       Yes
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" name="gender_female_no" type="checkbox" value="" id="flexCheckChecked">
+                      <label class="form-check-label" for="flexCheckChecked">
+                        No
+                      </label>
+                    </div>
+               <!-- </div> -->
+
+                 <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
+                  <!-- <h6>Spouse</h6>
+                  <input type="text" name="spouse" class="form-control"  placeholder="Enter Spouse" required> -->
+                <!-- </div> -->
+                 <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>Phone NO</h6>
                     <input type="text" name="phone_no" class="form-control"  placeholder="Phone No" required>
-                  </div>
-                  <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                  <!-- </div> -->
+                  <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>Email</h6>
                     <input type="email" name="email" class="form-control"  placeholder="Enter Email" required>
-                  </div>
-
+                  <!-- </div> -->
+                </div>
               
 
 
 
-              </div>
+            
+                <div class="col-lg-6"style="padding-left: 30px; padding-right: 30px; margin-bottom: 7px;">
 
-
-              <h2 style=" margin-top: 57px; margin-left:30px;"><b>Address Information</b></h2>
+              <h2 style="margin-top: 40px; margin-left:30px;"><b>Address Information</b></h2>
         
-            <div class="row" style="margin-left:30px;margin-right: 30px;"  >
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+            <!-- <div class="row" style="margin-left:30px;margin-right: 30px;"  > -->
+ 
                     <h6>CITY</h6>
                   <input type="text" name="city" class="form-control" placeholder="CITY name" required>
-                </div>
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                <!-- </div> -->
+                <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>STATE</h6>
                   <input type="text" name="state" class="form-control" placeholder="STATE name" required>
-                </div>
-                <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                <!-- </div> -->
+                <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>COUNTRY</h6>
                     <input type="text" name="country" class="form-control" placeholder="COUNTRY NAME"  required>
-                  </div>
+                  <!-- </div> -->
 
 
                
-                 <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+                 <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                     <h6>Nationality</h6>
                     <input type="text" name="nationality" class="form-control"  placeholder="Nationality" required>
-                  </div>
-                  <div class="col-lg-6"  style="margin-top: 7px; margin-bottom: 7px;">
-                    <h6>Passport No</h6>
-                    <input type="number" name="passport_no" class="form-control"  placeholder="Passport NO" required>
-                  </div>
+                  <!-- </div> -->
+           
                   
-                </div>
+                <!-- </div> -->
 
 
                 
 
               <h2 style=" margin-top: 57px; margin-left:30px;"><b>Other Information</b></h2>
         
-              <div class="row" style="margin-left:30px;margin-right: 30px;"  >
-                  <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
-                      <h6>Member Id.No</h6>
-                    <input type="text" name="member_id" class="form-control" placeholder="Member Id" required>
-                  </div>
-                  <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;">
+              <!-- <div class="row" style="margin-left:30px;margin-right: 30px;"  > -->
+                  <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
+                      <h6>MPSOS Member Id No</h6>
+                    <input type="text" name="member_id" class="form-control" placeholder="MPSOS Member Id">
+                  <!-- </div> -->
+                  <!-- <div class="col-lg-6" style="margin-top: 7px; margin-bottom: 7px;"> -->
                       <h6>ADDHAR No</h6>
                     <input type="text" name="aadhar_no" class="form-control" placeholder="AADHAR No" required>
-                  </div>
+                  <!-- </div> -->
                   
                   </div>
 
-
+                </div>
 
 
 
@@ -195,7 +219,7 @@
                         <td>4000/-</td>
                         <td>5000/-</td>
                       </tr><tr>
-                        <th scope="row">Trade Otherthen Complimentar</th>
+                        <th scope="row">Trade [Other than Complimentary]</th>
                         <td>5000/-</td>
                         <td>5000/-</td>
                         <td>6000/-</td>
@@ -220,28 +244,48 @@
               <label for=" Non Members "> Non Members </label><br>
               <input type="radio" id="radiocheck" name="Category" value="5">
               <label for=" Post Graduate student">  Post Graduate student </label><br>
+           
+              <input type="radio" id="radiocheck" name="Category" value="7">
+              <label for=" Trade Otherthen Complimentar"> Trade [Other than Complimentary]</label><br>
               <input type="radio" id="radiocheck" name="Category" value="6">
               <label for="Spouse (Non-Opthalmogist)">Spouse (Non-Opthalmogist)</label><br>
-              <input type="radio" id="radiocheck" name="Category" value="7">
-              <label for=" Trade Otherthen Complimentar"> Trade Otherthen Complimentar</label><br>
+</div>  
+</div>
 
-</div>            
-              
-         </div>
-   <div class="col-lg-6" style="margin-top: 34px; margin-bottom: 7px; padding-left: 7%; font-size: large;">
-    <h5><b>Dont take UG Marksheet But Take Certificate From Had Of The Department</b> </h5>
-  <br>
-      <label  for="myfile">Select a file:</label>
-      <input style="font-size: medium; " type="file" id="myfile" name="myfile"><br><br>
-      
-
-
-   </div>
+  <div class="col-lg-6" style="margin-top: 34px; margin-bottom: 7px; padding-left: 7%; font-size: large;">
+       
+<h3>Spouse</h3>
+<div class="form-check">
+  <input name="Spouse_Yes" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+   Yes
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" name="Spouse_no" type="checkbox" value="" id="flexCheckChecked">
+  <label class="form-check-label" for="flexCheckChecked">
+    No
+  </label>
+</div>
+<br>
+<h4>Enter Name</h4>
+<input style="width: 400px;" type="text" name="spouse_name" class="form-control"  placeholder="Enter Name" >           
+         
+ 
     </div>
 
+   </div>
+   <div class="row">
+      <div class="col-lg-6" style="margin-top: 34px; margin-bottom: 7px; padding-left: 7%; font-size: large;">
+      <h5><b>Kindly Submit Cerficate Given By HOD(sir)</b> </h5>
+      <br>
+      <label  for="myfile">Select a file:</label>
+      <input style="font-size: small; " type="file" id="myfile" name="myfile"><br><br>
+   </div>
+  </div>
     
 
-              <center>  <button style="margin-top: 40px;  margin-bottom: 70px; border-radius: 20px; border: 2px solid black;"  type="button" class="btn btn-warning">SUBMIT</button></center>
+              <center>  <button style="margin-top: 40px; width: 130px; margin-bottom: 70px; border-radius: 20px; border: 2px solid black;"  type="button" class="btn btn-warning">SUBMIT</button></center>
           </form>
           
         
